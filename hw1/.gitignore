@@ -1,0 +1,33 @@
+# Данные и результаты, сохранённые отдельно от ноутбука
+/data/
+/results/
+*.gz
+*.zip
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.pt
+*.pth
+*.part
+
+# Окружения и локальные настройки
+.venv/
+venv/
+env/
+.env
+.vscode/
+.idea/
+
+# Кеши Python и Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Системные файлы
+.DS_Store
+__MACOSX/
+Thumbs.db
